@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import './App.css'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <BrowserRouter>
         <div>
           <h1>Welcome to my website!</h1>
+          <Link to=""
         </div>
       </BrowserRouter>
     </>
